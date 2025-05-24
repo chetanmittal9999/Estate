@@ -18,8 +18,7 @@ const Testimonials = () => {
                     <img className='rounded-tr-4xl rounded-bl-4xl border w-52 h-52 mx-auto mb-2' src={testimonial.image} alt={testimonial.profession} />
                     <h1 className='font-bold text-xl'>{testimonial.name}</h1>
                     <h1 className='font-semibold text-sm text-gray-800'>( {testimonial.profession} )</h1>
-                    <div className='flex items-center justify-evenly '>
-                        <h1 className='text-xl font-mono text-red-800'>Rating :</h1>
+                    <div className='flex items-center justify-evenly mt-2'>
                         <div className='flex gap-1  justify-center'>
                             <img className='w-5' src={assets.star} alt="star" />
                             <img className='w-5' src={assets.star} alt="star" />
